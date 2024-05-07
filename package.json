@@ -1,0 +1,27 @@
+{
+  "name": "motohub_track_api",
+  "version": "1.0.0",
+  "description": "Track API (Get track information)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryan-k-anderson/BMX-Tack-API.git"
+  },
+  "keywords": [
+    "node",
+    "track",
+    "API"
+  ],
+  "author": "Ryan Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryan-k-anderson/BMX-Tack-API/issues"
+  },
+  "homepage": "https://github.com/ryan-k-anderson/BMX-Tack-API#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
