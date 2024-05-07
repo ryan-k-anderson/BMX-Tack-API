@@ -1,10 +1,8 @@
 const express = require('express');
 const app = express();
 
-app.use((req, res, next) => {
-    res.status(200).json({
-        message: 'It works!'
-    })
-});
+const trackRoutes = require('./api/routes/tracks');
+
+app.use('/tracks', trackRoutes)
 
 module.exports = app;
